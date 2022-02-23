@@ -13,5 +13,6 @@ shaka/packager-osx-x64 \
   'in=build/video_yellow_1280x720.mp4,stream=video,init_segment=dist/video/720p/init.mp4,segment_template=dist/video/720p/$Number$.m4s' \
   'in=build/video_indigo_1920x1080.mp4,stream=video,init_segment=dist/video/1080p/init.mp4,segment_template=dist/video/1080p/$Number$.m4s' \
   --segment_duration 3.84 \
+  --generate_static_live_mpd \
   --mpd_output dist/manifest.mpd
 
