@@ -1,13 +1,7 @@
 WEBVTT
 
-STYLE
-::cue {
-  background-color: red;
-  color: red;
-}
-
 00:00:00.000 --> 00:05:00.000
-line one
+<c.red.bg_red>line one</c>
 line two
 line three
 
