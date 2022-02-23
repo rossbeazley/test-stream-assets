@@ -2,6 +2,8 @@
 # https://google.github.io/shaka-packager/html/tutorials/dash.html
 rm -rf dist
 shaka/packager-osx-x64 \
+  'in=src/text.vtt,stream=text,init_segment=dist/text/init.mp4,segment_template=dist/text/$Number$.m4s' \
+  \
   'in=build/audio_1000.mp4,stream=audio,language=en,init_segment=dist/audio/1000hz/init.mp4,segment_template=dist/audio/1000hz/$Number$.m4s' \
   'in=build/audio_2000.mp4,stream=audio,language=it,init_segment=dist/audio/2000hz/init.mp4,segment_template=dist/audio/2000hz/$Number$.m4s' \
   'in=build/audio_3000.mp4,stream=audio,language=de,init_segment=dist/audio/3000hz/init.mp4,segment_template=dist/audio/3000hz/$Number$.m4s' \
