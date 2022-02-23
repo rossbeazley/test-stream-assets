@@ -2,7 +2,11 @@
 # https://google.github.io/shaka-packager/html/tutorials/dash.html
 rm -rf dist
 shaka/packager-osx-x64 \
-  'in=src/text.vtt,stream=text,init_segment=dist/text/init.mp4,segment_template=dist/text/$Number$.m4s' \
+  'in=build/text_red.vtt,stream=text,language=en,init_segment=dist/text/red/init.mp4,segment_template=dist/text/red/$Number$.m4s' \
+  'in=build/text_blue.vtt,stream=text,language=it,init_segment=dist/text/blue/init.mp4,segment_template=dist/text/blue/$Number$.m4s' \
+  'in=build/text_yellow.vtt,stream=text,language=de,init_segment=dist/text/yellow/init.mp4,segment_template=dist/text/yellow/$Number$.m4s' \
+  'in=build/text_magenta.vtt,stream=text,language=fr,init_segment=dist/text/magenta/init.mp4,segment_template=dist/text/magenta/$Number$.m4s' \
+  'in=build/text_lime.vtt,stream=text,language=da,init_segment=dist/text/lime/init.mp4,segment_template=dist/text/lime/$Number$.m4s' \
   \
   'in=build/audio_1000.mp4,stream=audio,language=en,init_segment=dist/audio/1000hz/init.mp4,segment_template=dist/audio/1000hz/$Number$.m4s' \
   'in=build/audio_2000.mp4,stream=audio,language=it,init_segment=dist/audio/2000hz/init.mp4,segment_template=dist/audio/2000hz/$Number$.m4s' \
