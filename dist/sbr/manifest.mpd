@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/google/shaka-packager version v2.6.1-634af65-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT600S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="text" lang="en" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="0" bandwidth="1165" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="text/red/init.mp4" media="text/red/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="3839" r="156"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="text" lang="de" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="1" bandwidth="1228" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="text/yellow/init.mp4" media="text/yellow/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="3839" r="156"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" contentType="text" lang="da" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="2" bandwidth="1186" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="text/lime/init.mp4" media="text/lime/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="3839" r="156"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="3" contentType="text" lang="it" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="3" bandwidth="1186" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="text/blue/init.mp4" media="text/blue/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="3839" r="156"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="4" contentType="text" lang="fr" segmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="4" bandwidth="1249" codecs="wvtt" mimeType="application/mp4">
+        <SegmentTemplate timescale="1000" initialization="text/magenta/init.mp4" media="text/magenta/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="3839" r="156"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="5" contentType="audio" lang="da" segmentAlignment="true">
+      <Representation id="5" bandwidth="130723" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" initialization="audio/5000hz/init.mp4" media="audio/5000hz/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="184320" r="155"/>
+            <S t="28753920" d="46080"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="6" contentType="audio" lang="en" segmentAlignment="true">
+      <Representation id="6" bandwidth="130517" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" initialization="audio/1000hz/init.mp4" media="audio/1000hz/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="184320" r="155"/>
+            <S t="28753920" d="46080"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="7" contentType="audio" lang="de" segmentAlignment="true">
+      <Representation id="7" bandwidth="130161" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" initialization="audio/3000hz/init.mp4" media="audio/3000hz/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="184320" r="155"/>
+            <S t="28753920" d="46080"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="8" contentType="audio" lang="fr" segmentAlignment="true">
+      <Representation id="8" bandwidth="130065" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" initialization="audio/4000hz/init.mp4" media="audio/4000hz/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="184320" r="155"/>
+            <S t="28753920" d="46080"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="9" contentType="video" width="640" height="360" frameRate="12800/512" segmentAlignment="true" par="16:9">
+      <Representation id="9" bandwidth="7360" codecs="avc1.4d401e" mimeType="video/mp4" sar="1:1">
+        <SegmentTemplate timescale="12800" initialization="video/360p/init.mp4" media="video/360p/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="128000" r="59"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="10" contentType="audio" lang="it" segmentAlignment="true">
+      <Representation id="10" bandwidth="130236" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" initialization="audio/2000hz/init.mp4" media="audio/2000hz/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="184320" r="155"/>
+            <S t="28753920" d="46080"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
