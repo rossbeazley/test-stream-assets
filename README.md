@@ -1,6 +1,8 @@
 # test-stream-assets
 
-each video representation is a different colour
+each ABR video representation is a different colour
+
+the SBR video representation is a different colour every 3.84 seconds
 
 each audio track is a different tone
 
